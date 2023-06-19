@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #edd1a2;
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.todo-list h1{
+	padding-top: 1em;
+	color: #ffffff;
+	font-size: 2.5em;
+}
+
+.todo-list h2{
+	text-align: left;
+	padding-bottom: .8em;
+	
+}
+
+.todo{
+	padding: 3em;
+	margin: 5% 30%;
+	background-color: #ffffff;
+	border-radius: 1em;
+}
+
+
+
+.form > input{
+    padding: 10px 16px;
+    width: 80%;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.todo-button{
+	background-color: orange;
+	border: 2px solid orange;
+	padding: 9px 10px;
+	border-radius: 5px;
+	color: #ffffff;
+	font-weight: bold;
+}
+.todo-button:hover{
+	background-color: rgba(255, 166, 0, 0.521);
+	border: 1px solid rgba(89, 0, 255, 0.007);
+}
+
+#listData{
+	margin-left: -3em;
+}
+
+#listData{
+	list-style: none;
+	text-align: center;
+}
+
+#listData button{
+	background-color: orange;
+	border: 1px solid orange;
+	padding: 11px;
+	border-radius: 5px;
+	color: #ffffff;
+	font-weight: bold;
+	margin-left: 6px;
+}
+
+#listData button:hover{
+	background-color: rgba(255, 166, 0, 0.521);
+	border: 1px solid rgba(89, 0, 255, 0.007);
+}
+
+#listData input{
+    padding: 10px 70px;
+    border: 1px solid orange;
+	background-color: transparent;
+	color: #333;
+    border-radius: 5px;
+    font-size: 15px;
+	margin-bottom: 1em;
+}
+
+
+
+
+
+
+
+
+
